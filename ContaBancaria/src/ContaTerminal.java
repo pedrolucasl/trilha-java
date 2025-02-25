@@ -22,6 +22,6 @@ public class ContaTerminal {
         System.out.println("NÚMERO DA CONTA: " + numero);
         System.out.println("NÚEMRO DA AGÊNCIA: "+ agencia);
         System.out.println("NOME DO CLIENTE: " +nomeCliente);
-        System.out.println("SALDO DA CONTA: R$ " + saldo);
+        System.out.println("SALDO DISPONÍVEL: R$ " + saldo);
     }
 }

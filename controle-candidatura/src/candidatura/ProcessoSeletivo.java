@@ -1,11 +1,18 @@
 package candidatura;
 
+import java.util.Scanner;
+
 public class ProcessoSeletivo {
     public static void main(String[] args) throws Exception {
         
       System.out.println("=====================PROCESSO SELETIVO=====================");
 
-      analisarCandidato(2000.0);
+      Scanner scanner = new Scanner (System.in);
+
+      System.out.println("CANDIDATO, INFORME O SALÁRIO PRETENDIDO");
+      double teste = scanner.nextDouble();
+
+      analisarCandidato(teste);
 
     }
       static void analisarCandidato(double salarioPretendido) {
